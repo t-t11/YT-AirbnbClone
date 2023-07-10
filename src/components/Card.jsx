@@ -13,11 +13,7 @@ export const Card = ({ data }) => {
   return (
     <div className="card">
       <div className="card--img-container">
-        <img
-          src={`/src/assets/${img}`}
-          className="card--img"
-          alt="a girl face"
-        />
+        <img src={`/${img}`} className="card--img" alt="a man face" />
         {badgeText && <div className="card--img-badge">{badgeText}</div>}
       </div>
       <span>⭐️</span>
